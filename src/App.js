@@ -1,10 +1,12 @@
 import React from 'react'
+import NewRecipeModal from './components/NewRecipeModal'
 
 class App extends React.Component {
     render () {
         return (
-            <div>
-                <h1>Hello world</h1>
+            <div className="allContent">
+                <h1 className="menuTitle">Weekly Menu</h1>
+                <NewRecipeModal />
             </div>
         )
     }
