@@ -8,3 +8,29 @@
 .newRecipeModal {
     width: 10em;
 }
+
+.weekLayout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.weekday {
+    margin: 10px;
+}
+
+.breakfast {
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.lunch {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.dinner {
+    background-color: lightgrey;
+    padding: 10px;
+}

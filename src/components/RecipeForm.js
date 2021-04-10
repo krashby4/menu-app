@@ -3,19 +3,18 @@ import Form from 'react-bootstrap/Form';
 import IngredientListForm from './IngredientListForm';
 import Button from 'react-bootstrap/Button';
 
-let initialFormData;
 const RecipeForm = () => {
-    const [formData, updateFormData] = useState(initialFormData);
+    const [formData, updateFormData] = useState("");
 
     const handleChange = (e) => {
         updateFormData({
             ...formData,
-            [e.target.name]: e.target.value
+            [e.target.name]: e.target.value,
         });
     };
 
     const handleSubmit = (e) => {
-        e.preventDefault()
+        e.preventDefault();
         console.log(formData);
     };
 
