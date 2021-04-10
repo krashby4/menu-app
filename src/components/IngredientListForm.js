@@ -30,27 +30,30 @@ const IngredientListForm = () => {
         <Form.Group>
             {inputFields.map((inputField, index) => (
                 <Fragment key={`${inputField}~${index}`}>
-                    <Form.Label>Ingredient {index+1}</Form.Label>
-                    <Form.Control
-                        as='input'
-                        className="form-control"
-                        id={"ingredient" + (index+1)}
-                        name={"ingredient" + (index+1)}
-                        value={inputField.ingredient}
-                        onChange={event => handleInputChange(index, event)}
-                    />
-                    <Button
-                        variant="secondary"
-                        onClick={() => handleRemoveFields(index)}
-                    >
-                        -
-                    </Button>
-                    <Button
-                        variant="primary"
-                        onClick={() => handleAddFields(index)}
-                    >
-                        +
-                    </Button>
+                    <br />
+                    <div className="ingredientInput">
+                        <Form.Label className="ingredientLabel">Ingredient {index+1}</Form.Label>
+                        <Form.Control
+                            as='input'
+                            className="form-control"
+                            id={"ingredient" + (index+1)}
+                            name={"ingredient" + (index+1)}
+                            value={inputField.ingredient}
+                            onChange={event => handleInputChange(index, event)}
+                        />
+                        <Button
+                            variant="secondary"
+                            onClick={() => handleRemoveFields(index)}
+                        >
+                            -
+                        </Button>
+                        <Button
+                            variant="primary"
+                            onClick={() => handleAddFields(index)}
+                        >
+                            +
+                        </Button>
+                    </div>
                 </Fragment>
             ))}
         </Form.Group>

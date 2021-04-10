@@ -16,7 +16,7 @@ class App extends React.Component {
                     <WeekDay name="Friday"/>
                     <WeekDay name="Saturday"/>
                 </div>
-                <NewRecipeModal />
+                <NewRecipeModal/>
             </div>
         )
     }

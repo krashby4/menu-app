@@ -2,18 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-.newRecipeModal {
-    width: 10em;
-}
 
 .weekLayout {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .weekday {
@@ -33,4 +30,25 @@
 .dinner {
     background-color: lightgrey;
     padding: 10px;
+}
+
+.ingredientInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ingredientLabel {
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 2%;
+}
+
+@media (max-width: 500px) {
+    .weekLayout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
