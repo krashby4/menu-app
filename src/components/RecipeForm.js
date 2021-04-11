@@ -15,7 +15,8 @@ const RecipeForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formData);
+        console.log(formData)
+        
     };
 
     return (

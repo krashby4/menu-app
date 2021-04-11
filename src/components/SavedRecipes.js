@@ -43,4 +43,18 @@ export const recipeData = [
         ingredient9: "2-3 tbsp chopped fresh cilantro",
         ingredient10: "Corn or flour tortillas"
     },
+    {
+        recipeName: "Easy Winter Fresh Fruit Salad",
+        recipeSource: "https://www.melskitchencafe.com/winter-fresh-fruit-salad/",
+        recipeDescription: "This winter fruit salad is as delicious as it is pretty. Made with seasonal fresh fruit (with a few options for canned fruit, too!), the quick and easy dressing adds the perfect touch of something special.",
+        ingredient1: "1 cup fresh blueberries",
+        ingredient2: "1 cup peeled and diced kiwi fruit",
+        ingredient3: "1 cup mandarin oranges, drained, or fresh mandarin/navel orange segments",
+        ingredient4: "1 cup diced apples or pears",
+        ingredient5: "1 cup halved grapes",
+        ingredient6: "1/2 cup pomegranate seeds",
+        ingredient7: "1 tbsp honey",
+        ingredient8: "2 tbsp orange juice",
+        ingredient9: "Light pinch of cinnamon",
+    },
 ]

@@ -4,9 +4,8 @@ import DropdownButton from 'react-bootstrap/DropdownButton'
 import {recipeData} from './SavedRecipes'
 
 function Meal(props) {
-    const [value,setValue]=useState('');
+    const [value,setValue] = useState('');
     const handleSelect=(e)=>{
-        console.log(e);
         setValue(e);
     }
 
