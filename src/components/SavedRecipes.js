@@ -1,5 +1,8 @@
 export const recipeData = [
     {
+        recipeName: "",
+    },
+    {
         recipeName: "Easy Brookie Pie",
         recipeSource: "https://www.melskitchencafe.com/brookie-pie/",
         recipeDescription: "This easy brookie pie is the perfect mashup of rich, decadent brownies and soft and chewy chocolate chip cookies! It’s easy and so very delicious!",
