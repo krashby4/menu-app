@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# The Menu App - a rather simple way to organize your meals
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## What the app can do:
 
-In the project directory, you can run:
+You can add meals to certain days of the week by clicking the drop-down menus
 
 ### `npm start`
 
