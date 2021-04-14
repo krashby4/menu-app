@@ -17,7 +17,7 @@ function Meal(props) {
 
     return (
         <div className={props.name}>
-            <a href={(document.getElementById(item) !== 'undefined' && document.getElementById(item) !== null) ? recipeData[recipeData.findIndex(p => p.recipeName === item)].recipeSource : `default`} id={item}>{item}</a>
+            <p id={item}>{item}</p>
             <DropdownButton variant={props.variant} title={"Add "+props.name+" item"}>
                 {recipeList}
             </DropdownButton>
